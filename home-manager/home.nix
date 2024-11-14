@@ -20,6 +20,7 @@
     direnv
     autorandr
     jq
+    yq-go
     gh
     delta
     kubectl
@@ -30,6 +31,7 @@
     nmap
     whois
     tcpdump
+    chromium
 
     # TERMINAL
     any-nix-shell
