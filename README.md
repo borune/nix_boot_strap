@@ -14,7 +14,7 @@ sh <(curl -L https://nixos.org/nix/install) --daemon
 
 * Run the bootstrap script (first time for preparation)
 ```sh
-nix run github:to-bak/home?dir=home-manager#bootstrap --extra-experimental-features "nix-command flakes"
+nix run github:borune/nix_boot_strap?dir=home-manager#bootstrap --extra-experimental-features "nix-command flakes"
 ```
 
 * Populate `$HOME/.flake-env/environment.nix` with following variables:
